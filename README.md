@@ -29,22 +29,24 @@ Response:
 Resolve dependencies:
 
 ```bash
-mvn dependency:resolve
+./mvnw dependency:resolve
 ```
 
 Run tests:
 
 ```bash
-mvn test
+./mvnw test
 ```
 
 Run the application:
 
 ```bash
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 The service listens on port `8080` by default.
+
+On Windows PowerShell, use `.\mvnw.cmd` instead of `./mvnw`.
 
 ## Docker workflow
 
